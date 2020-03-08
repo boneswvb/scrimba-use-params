@@ -1,3 +1,2 @@
 UseParams
 useHistory
-useLocation
