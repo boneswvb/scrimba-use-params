@@ -10,8 +10,7 @@ import {Switch, Route} from "react-router-dom"
 function App() {    
   return (
     <div>
-      <Header />
-      
+      <Header />      
       <Switch>
         <Route exact path="/">
           <Home />
@@ -19,9 +18,13 @@ function App() {
         <Route exact path="/services" >
           <ServicesList />
         </Route>
+        <Route path="/services/:serviceId" >
+          <ServiceDetail />
+        </Route>
       </Switch>
     </div>
   )
 }
 
 export default App
+

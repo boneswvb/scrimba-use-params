@@ -1,6 +1,5 @@
 export default [
-  
-]{
+{
     "name": "Lawn Mowing",
     "price": 30,
     "_id": "1",
@@ -24,3 +23,4 @@ export default [
     "_id": "4",
     "description": "Keep your irrigation system top-notch."
   }
+]  
